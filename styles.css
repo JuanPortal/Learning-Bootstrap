@@ -6,7 +6,15 @@ body {
     /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #2c3e50, #bdc3c7);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 100vh;
+}
 
+nav{
+    height: 8vh;
+}
+
+.container{
+    height: 84vh;
 }
 
 #language-description {
@@ -27,4 +35,26 @@ body {
 
 .custom-bg:last-child{
     border-radius: 0 10px 10px 0;
+}
+
+/* FOOTER */
+footer{
+    background-color: black;
+    font-family: Poppins;
+    color: white;
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer a{
+    margin-left: 6px;
+    text-decoration: none;
+    color: #800040;
+}
+
+footer a:hover{
+    color: #800040;
+    font-size: large;
 }
