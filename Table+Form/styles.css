@@ -9,11 +9,11 @@ body {
     height: 100vh;
 }
 
-nav{
+nav {
     height: 8vh;
 }
 
-.container{
+.container {
     height: 84vh;
 }
 
@@ -25,20 +25,20 @@ nav{
     text-align: center;
 }
 
-.custom-bg{
+.custom-bg {
     background-color: #ffffff75;
 }
 
-.custom-bg:first-child{
+.custom-bg:first-child {
     border-radius: 10px 0 0 10px;
 }
 
-.custom-bg:last-child{
+.custom-bg:last-child {
     border-radius: 0 10px 10px 0;
 }
 
 /* FOOTER */
-footer{
+footer {
     background-color: black;
     font-family: Poppins;
     color: white;
@@ -48,13 +48,13 @@ footer{
     align-items: center;
 }
 
-footer a{
+footer a {
     margin-left: 6px;
     text-decoration: none;
     color: #800040;
 }
 
-footer a:hover{
+footer a:hover {
     color: #800040;
     font-size: large;
 }
